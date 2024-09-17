@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body, html {
+    /* direction: RTL; */
+    text-align: right;
+}
+a, p, div, input, label, h1, h2, h3, h4, h5, h6 {
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+}
+html, body, [class*="css"] {
+    font-family: 'Tajawal', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    color: #091747;
+}
+div[data-testid="stSidebarHeader"] > img, div[data-testid="collapsedControl"] > img {
+    height: 6rem;
+    width: auto;
+}
+
+div[data-testid="stSidebarHeader"], div[data-testid="stSidebarHeader"] > *,
+div[data-testid="collapsedControl"], div[data-testid="collapsedControl"] > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

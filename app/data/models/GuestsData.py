@@ -1,0 +1,2 @@
+class GuestData():
+    pass
