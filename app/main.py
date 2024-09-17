@@ -21,7 +21,7 @@ st.set_page_config(
 
 
 # preprocess data and store it in session
-h_res = read_file("app/data/h_1-13Sep.csv")
+h_res = read_file("app/data/files/h_1-13Sep.csv")
 h_res = process_Htask(h_res)
 st.session_state["htask_reservations"] = h_res
 
